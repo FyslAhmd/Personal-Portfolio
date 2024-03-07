@@ -8,17 +8,22 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 #name-highlight {
     color: orange;
 }
 
-.main-section {
+.section {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 65vh;
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    margin-bottom: 50px;
 }
 
 .half-width {
@@ -27,6 +32,26 @@ h1 {
     padding: 1rem 2rem;
 }
 
+.half-width p {
+    text-align: justify;
+    line-height: 30px;
+}
+
 .half-width img {
     width: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lime, limegreen);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.dream-area {
+    margin-right: 20px;
+    background-image: url(images/dream-bg.png);
+    background-position: right;
 }
